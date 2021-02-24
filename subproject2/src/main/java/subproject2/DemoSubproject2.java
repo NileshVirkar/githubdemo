@@ -9,15 +9,16 @@ public class DemoSubproject2 {
 	
 	public static void main(String[] args) {
 		int k_subproject;
+		System.out.println(""); 
 	}
 	
 	private static DemoSubproject2 fook = null;
 
 	public static DemoSubproject2 getFook() { 
 		 System.out.println(""); 
-		 
+		 System.out.println(""); 
 		if (fook==null) {
-			fook = new DemoSubproject2();
+			fook = new DemoSubproject2(); 
 		}                       
 		return fook;
 	}
