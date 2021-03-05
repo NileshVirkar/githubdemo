@@ -2,7 +2,7 @@ package subproject;
 
 public class DemoSubproject2 {
 
-	public static void main(String[] args) { 
+	public static void main(String[] args) {  
 		int k_subproject; 
 		
 	}
@@ -14,6 +14,7 @@ public class DemoSubproject2 {
 
  public static DemoSubproject getFoo() {
 	 System.out.println("commit 3");
+	  System.out.println("commit 3");
      if (foo==null) {
          foo = new DemoSubproject();
      }
@@ -21,7 +22,7 @@ public class DemoSubproject2 {
  }
 
  public static DemoSubproject getFoot() {
-	 System.out.println("commit 3");
+	 System.out.println("commit 3"); 
 	 System.out.println("commit 3"); 
      if (foo==null) {
          foo = new DemoSubproject();
